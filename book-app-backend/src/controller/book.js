@@ -70,4 +70,8 @@ const getBooks =  async(req, res) => {
     }
 }
 
-export { getBook, getBookByUser, addBook, getBooks };
+
+module.exports = {
+    getBook, getBookByUser, addBook, getBooks
+}
+
